@@ -1,0 +1,19 @@
+.signup-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.signup-container form {
+  width: 400px;
+  border: 1px solid;
+  padding: 30px 20px;
+  text-align: center;
+}
+.signup-container .input-style {
+  margin: 20px 0;
+}
+.signup-container form button {
+  margin-top: 20px;
+  cursor: pointer;
+}

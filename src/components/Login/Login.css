@@ -1,0 +1,19 @@
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.login-container form {
+  width: 400px;
+  border: 1px solid;
+  padding: 30px 20px;
+  text-align: center;
+}
+.login-container .input-style {
+  margin: 20px 0;
+}
+.login-container form button {
+  margin-top: 20px;
+  cursor: pointer;
+}

@@ -1,0 +1,15 @@
+.video-react .video-react-big-play-button {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.video-react.video-react-fluid {
+  width: 800px;
+  height: 500px;
+  padding-top: 0 !important;
+}
+
+.player-heading {
+  display: flex;
+  flex-direction: column;
+}

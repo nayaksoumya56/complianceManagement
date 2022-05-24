@@ -1,0 +1,48 @@
+.form-card{
+  box-shadow: none !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.form-card form {
+  margin-top: 55px;
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  padding: 20px;
+  border: 1px solid #e7e7e7;
+  
+}
+
+.input-style {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.input-style textarea,button{
+  width: 200px;
+  height: 56px !important;
+  padding: 16.5px 14px;
+  font-size: 16px;
+}
+
+.MuiFormControl-root.MuiTextField-root{
+width: 200px;
+text-align: left;
+}
+
+.css-viou3o-MuiAutocomplete-root.courses{
+  width: auto;
+}
+.courses .MuiAutocomplete-endAdornment{
+right: 0 !important;
+top: 0 !important;
+}
+.courses .MuiIconButton-root{
+  width: 30px;
+  right: 10px;
+  display: none;
+  background: transparent;
+}
